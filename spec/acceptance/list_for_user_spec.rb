@@ -8,12 +8,14 @@ RSpec.describe 'show a submitters movie list', type: :feature do
 
   before do
     @alice = User.create(
-      uid:  'null|12345',
-      name: 'Alice'
+      uid:   'null|12345',
+      name:  'Alice',
+      email: 'alice@example.com'
     )
     @bob = User.create(
-      uid:  'null|67890',
-      name: 'Bob'
+      uid:   'null|67890',
+      name:  'Bob',
+      email: 'bob@example.com'
     )
     @m_empire = Movie.create(
       title:        'Empire strikes back',
