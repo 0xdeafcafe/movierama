@@ -18,6 +18,9 @@ gem 'rails_12factor', group: :production
 # Forces SSL usage
 gem 'rack-ssl'
 
+# Background concurrent job management
+gem 'sucker_punch', '~> 2.0'
+
 # Use Redis as backing store
 gem 'ohm'
 gem 'ohm-contrib'
@@ -27,6 +30,9 @@ gem 'draper'
 
 # Use Redis as cache
 gem 'redis-rails'
+
+# Used to send mails
+gem 'sendgrid-actionmailer'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
