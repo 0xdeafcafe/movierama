@@ -1,0 +1,14 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+  %body
+    %p
+      Hi #{@movie.user.name}!
+    %p
+      #{@user.name} has just #{@friendly_like_or_hate} your movie #{@movie.title}!
+
+    %strong
+      Best,
+      %br/
+      The MovieRama Team
