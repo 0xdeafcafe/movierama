@@ -1,6 +1,5 @@
 require 'sucker_punch/testing/inline'
 require 'rails_helper'
-require 'spec_helper'
 
 RSpec.describe VotingBooth, :type => :service do
   let(:relationships) {instance_double(Ohm::MutableSet, size: 1, add: true, delete: true)}

@@ -1,5 +1,4 @@
 require 'rails_helper'
-require 'spec_helper'
 
 RSpec.describe UserNotifierMailer, :type => :mailer do
   let(:user) { instance_double('User', email: 'john@example.com', name: 'John McFoo', id: 123) }
