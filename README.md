@@ -29,7 +29,7 @@ should just work; otherwise change the value of `DB_URL` in `.env`.
 
 
 You will also need a SendGrid API key to send user notification mails. Grab it
-from your account portal, and change the valie of `SG_APIKEY` in `.env`.
+from your account portal, and change the value of `SG_APIKEY` in `.env`.
 
 Check that everything works by seeding the database with a few users and movies:
 
